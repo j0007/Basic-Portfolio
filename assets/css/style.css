@@ -1,76 +1,100 @@
-Titlename,
+Tabtme,
 h1{
     font-family: 'Georgia', 'Times', Times New Roman, serif;
 }
 
-nav,
-article {
+ul,
+p {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
 }
 
-body {
-    background-image: url("assets/images/just-waves.png");
-    background-size: cover;
-}
-
-header{ 
-    display:inline;
-    overflow: hidden;
-    width: 960px;
+html,
+body{
+    background-image: url(assets/images/arches.png);
+    height: 100%;
     margin: 0;
-    font-size: 20px;
+}
+
+body {
+    
+    margin: 0 auto;
+   
+}
+
+header{
+    border-bottom: solid#cccccc 2px;
+    padding-top: 25px;
+    overflow: auto;
+}
+
+.head {
+    width: 960px;
+    margin: 0 auto;
 
 }
 
-nav {
-    float:right;
-    text-align: center;
+h1{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 36px;
+    padding: 5px;
+    float: left;
+    margin: 0;
+
 }
+
 
 ul{
-    margin:0;
+    top:10px;
+    bottom: 0;
+    float:right;
+    text-align: center;
 }
 
 li{
     display: inline;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     font-size: 15px;
 
 }
 
-
-
-
 .content {
+    content: "";
+    clear: both;
+    border: solid 1px #cccccc;
+    overflow: auto;
     width: 960px;
     margin: 0 auto;
-    border-style: dotted;
-    border-color: black;
-    overflow: auto;
+    margin-bottom: 100px;
+
+
 }
 
-h1{
-    font-size: 20px;
+.txtbox{
+    margin: 20px;
 }
-
 .profileimage {
     height:200px;
     width:200px;
-
 }
 
-p {
-    float: right;
-   
-   
+#abtme {
+    font-size: 36px;
+    color:#4aaaa5;
+    border-bottom:#cccccc 3px solid;
+    mar
 }
 
-footer {
+footer{
     position:absolute;
     bottom:0;
     width:100%;
-    height:60px;  
-    background:#6cf;
+    height:40px;  
+    padding-top:10px;
+    text-align:center;
+    border-top: solid 5px #4aaaa5;
+    background:#666666;
+    color: white;
+
  }
